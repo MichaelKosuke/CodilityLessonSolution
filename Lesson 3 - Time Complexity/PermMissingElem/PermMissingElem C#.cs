@@ -11,7 +11,7 @@ using System;
 // Complexity O(N) or O(N * log(N))
 
 class Solution {
-    public int solution(int[] A, int start = 0) {
+    public int solution(int[] A) {
         Array.Sort(A);
         if (A.Length == 0){ //just incase
             return 1; // smallest integer

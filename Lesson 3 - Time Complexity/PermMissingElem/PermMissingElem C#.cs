@@ -8,6 +8,7 @@ using System;
 // By MichaelKosuke@github
 // https://github.com/MichaelKosuke
 // Correctness 100% Performance 100%
+// Complexity O(N) or O(N * log(N))
 
 class Solution {
     public int solution(int[] A, int start = 0) {

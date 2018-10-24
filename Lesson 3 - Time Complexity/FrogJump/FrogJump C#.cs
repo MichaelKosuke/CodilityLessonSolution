@@ -8,6 +8,7 @@ using System;
 // By MichaelKosuke@github
 // https://github.com/MichaelKosuke
 // Correctness 100% Performance 100%
+// Complexity O(1)
 
 class Solution {
     public int solution(int X, int Y, int D) {

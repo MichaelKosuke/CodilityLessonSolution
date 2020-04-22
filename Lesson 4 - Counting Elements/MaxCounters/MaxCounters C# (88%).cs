@@ -8,7 +8,7 @@ using System.Linq;
 
 // By MichaelKosuke@github
 // https://github.com/MichaelKosuke
-// Correctness 100% Performance 80%
+// Correctness 100% Performance 80% (88%)
 // Complexity O(N+M)
 
 class Solution {

@@ -7,18 +7,14 @@ using System;
 
 // By MichaelKosuke@github
 // https://github.com/MichaelKosuke
-// Correctness 100% Performance 100%
-// Complexity O(N) or O(N * log(N))
+// Correctness 100% Performance 100% (100%)
+// Complexity O(N * log(N))
 
 class Solution {
     public int solution(int[] A) {
         Array.Sort(A);
-        
-        for (int i=0; i<A.Length; i++){
-            if (A[i] != i+1){
-                return 0;
-            }
-        }
-        return 1;
+        int result = 0;
+        result = A[0] * A[1] * A[A.Length-1] > A[A.Length-1] * A[A.Length-2] * A[A.Length-3] ? A[0] * A[1] * A[A.Length-1] : A[A.Length-1] * A[A.Length-2] * A[A.Length-3];
+        return result;
     }
 }

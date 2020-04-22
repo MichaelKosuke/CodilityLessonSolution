@@ -9,7 +9,7 @@ using System.Linq;
 
 // By MichaelKosuke@github
 // https://github.com/MichaelKosuke
-// Correctness 100% Performance 25%
+// Correctness 100% Performance 25% (66%)
 // Complexity O(N ** 2))
 
 class Solution {

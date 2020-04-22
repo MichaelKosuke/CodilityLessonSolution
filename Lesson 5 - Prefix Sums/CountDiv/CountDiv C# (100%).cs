@@ -7,7 +7,7 @@ using System;
 
 // By MichaelKosuke@github
 // https://github.com/MichaelKosuke
-// Correctness 100% Performance 100%
+// Correctness 100% Performance 100% (100%)
 // Complexity O(1)
 
 class Solution {

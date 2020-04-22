@@ -7,7 +7,7 @@ using System;
 
 // By MichaelKosuke@github
 // https://github.com/MichaelKosuke
-// Correctness 100% Performance 100%
+// Correctness 100% Performance 100% (100%)
 // Complexity O(N) or O(N * log(N))
 
 class Solution {

@@ -7,7 +7,7 @@ using System;
 
 // By MichaelKosuke@github
 // https://github.com/MichaelKosuke
-// Correctness 100% "The solution obtained perfect score"
+// Correctness 100% "The solution obtained perfect score" (100%)
 // Complexity -
 
 class Solution {
